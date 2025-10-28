@@ -1,0 +1,27 @@
+# DataMind AI Dataset Analyzer — requirements.txt
+# Install with: pip install -r requirements.txt
+
+# ── Web Framework ─────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── Core Data ─────────────────────────────────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.26.0
+
+# ── Statistical & ML ──────────────────────────────────────────────────────────
+scipy>=1.12.0
+scikit-learn>=1.4.0
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.20.0
+
+# ── PDF Generation ────────────────────────────────────────────────────────────
+reportlab>=4.1.0
+
+# ── AI API (Google Gemini) ────────────────────────────────────────────────────
+google-generativeai>=0.7.0
+
+# ── Optional: dataset profiling ───────────────────────────────────────────────
+# ydata-profiling>=4.6.0  # Uncomment if you want auto profiling report
