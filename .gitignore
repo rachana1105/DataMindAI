@@ -1,0 +1,23 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Generated/user data
+uploads/
+reports/
+visualizations/
+models/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
